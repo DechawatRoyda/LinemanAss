@@ -1,0 +1,47 @@
+.Navbar {
+  /* Set the background image */
+  background-image: url('https://www.brandbuffet.in.th/wp-content/uploads/2020/07/lineman-acquire-wongnai.jpg');
+
+  /* Ensure the background image covers the entire container */
+  background-size: cover;
+
+  /* Center the background image horizontally and vertically */
+  background-position: center;
+
+  /* Set the background to not repeat */
+  background-repeat: no-repeat;
+
+  /* Set a fixed height for the container */
+  height: 400px;
+  /* You can adjust the height as needed */
+
+  /* Add some padding for spacing */
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    height: 200px;
+    /* Adjust the height for smaller screens */
+  }
+}
+
+@media (max-width: 431px) {
+  .Navbar {
+    height: 160px;
+    /* Adjust the height for smaller screens */
+  }
+}
+
+@media (max-width: 376px) {
+  .Navbar {
+    height: 148px;
+    /* Adjust the height for smaller screens */
+  }
+}
+@media (max-width: 320px) {
+  .Navbar {
+    height: 120px;
+    /* Adjust the height for smaller screens */
+  }
+}

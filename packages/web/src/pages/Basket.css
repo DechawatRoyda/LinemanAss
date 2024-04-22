@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.basket-container {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(250, 250, 250);
+}
+
+.basket-item {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 16rem;
+  margin-right: 16rem;
+
+}
+
+.basket-item-image {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+.head-basket{
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.basket-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.basket-item-details {
+  flex-grow: 1;
+}
+
+.basket-item-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.full-price {
+  color: #666;
+  text-decoration: line-through;
+}
+
+.discounted-price {
+  color: #4caf50;
+}
+
+.basket-item-quantity {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.basket-item-options {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.basket-item-option {
+  margin-bottom: 4px;
+}
+
+.option-label {
+  font-weight: bold;
+}
+
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  margin-right: 20rem;
+}
+
+.back-button {
+  font-weight: 600;
+  font-size: 18px;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 20px;
+  color: black;
+  background-color:white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.head-basket {
+  align-items: center;
+  display: flex;
+  color: #128016;
+}
+
+.basket-icon-head {
+  font-size: 28px;
+  margin-right: 5px;
+  /* background-color:#dcf6ff; */
+  border-radius: 30px;
+}
+
+.pb20px {
+  padding-bottom: 20px;
+}
+
+.mt20px {
+  margin-top: 20px;
+}
+
+@media (max-width: 2560px) {
+  .basket-item {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+  .total-price {
+    margin-right: 20rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .basket-item {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  .total-price {
+    margin-right: 15rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .basket-item {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .total-price {
+    margin-right: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .basket-item {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .total-price {
+    margin-right: 6rem;
+  }
+
+  .mt20px {
+    margin-top: 10px;
+  }
+
+  .basket-container {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 431px) {
+  .basket-item {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .total-price {
+    margin-right: 1.5rem;
+  }
+
+  .basket-icon-head {
+    font-size: 22px;
+  }
+
+  .head-basket {
+    font-size: 14px;
+  }
+
+  .back-button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 376px) {
+  .basket-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .total-price {
+    margin-right: 1rem;
+  }
+}
